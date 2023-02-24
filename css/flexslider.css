@@ -150,16 +150,16 @@ html[xmlns] .flexslider .slides {
 }
 
 .flex-direction-nav a:before {
-  font-family: "flexslider-icon";
-  font-size: 40px;
+  font-family: "icomoon"; /*"flexslider-icon";*/
+  font-size: 30px;
   display: inline-block;
-  content: '\f001';
+  content: '\ea70';
   color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 
 .flex-direction-nav a.flex-next:before {
-  content: '\f002';
+  content: '\ea6c';
 }
 
 .flex-direction-nav .flex-prev {
@@ -211,7 +211,7 @@ html[xmlns] .flexslider .slides {
 }
 
 .flex-pauseplay a:before {
-  font-family: "flexslider-icon";
+  font-family: "icomoon";
   font-size: 20px;
   display: inline-block;
   content: '\f004';
