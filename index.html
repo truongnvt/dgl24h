@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Đất Gia Lai 24h</title>
+  <title>Đất Gia Lai 24H</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Nhà đất Gia Lai 24h, mua bán bất động sản Gia Lai, thông tin nhà đất Gia Lai" />
   <meta name="keywords" content="Nhà đất Gia Lai 24h, mua bán bất động sản Gia Lai, thông tin nhà đất Gia Lai" />
-  <meta name="author" content="" />
+  <meta name="author" content="Đất Gia Lai 24h" />
 
   <meta property="og:title" content="Nhà đất Gia Lai 24h" />
   <meta property="og:image" content="" />
@@ -42,56 +42,26 @@
 
   <script src="js/modernizr-2.6.2.min.js"></script>
 	
+  <script src="js/jquery.min.js"></script>
 
-  <!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-  <script
-    nonce="09d2ac86-c54f-4b2c-8210-ba7b167b567f">(function (w, d) { !function (f, g, h, i) { f[h] = f[h] || {}; f[h].executed = []; f.zaraz = { deferred: [], listeners: [] }; f.zaraz.q = []; f.zaraz._f = function (j) { return function () { var k = Array.prototype.slice.call(arguments); f.zaraz.q.push({ m: j, a: k }) } }; for (const l of ["track", "set", "debug"]) f.zaraz[l] = f.zaraz._f(l); f.zaraz.init = () => { var m = g.getElementsByTagName(i)[0], n = g.createElement(i), o = g.getElementsByTagName("title")[0]; o && (f[h].t = g.getElementsByTagName("title")[0].text); f[h].x = Math.random(); f[h].w = f.screen.width; f[h].h = f.screen.height; f[h].j = f.innerHeight; f[h].e = f.innerWidth; f[h].l = f.location.href; f[h].r = g.referrer; f[h].k = f.screen.colorDepth; f[h].n = g.characterSet; f[h].o = (new Date).getTimezoneOffset(); if (f.dataLayer) for (const s of Object.entries(Object.entries(dataLayer).reduce(((t, u) => ({ ...t[1], ...u[1] }))))) zaraz.set(s[0], s[1], { scope: "page" }); f[h].q = []; for (; f.zaraz.q.length;) { const v = f.zaraz.q.shift(); f[h].q.push(v) } n.defer = !0; for (const w of [localStorage, sessionStorage]) Object.keys(w || {}).filter((y => y.startsWith("_zaraz_"))).forEach((x => { try { f[h]["z_" + x.slice(7)] = JSON.parse(w.getItem(x)) } catch { f[h]["z_" + x.slice(7)] = w.getItem(x) } })); n.referrerPolicy = "origin"; n.src = "https://preview.colorlib.com/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(f[h]))); m.parentNode.insertBefore(n, m) };["complete", "interactive"].includes(g.readyState) ? zaraz.init() : f.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
+  <script src="components/footer.js" type="text/javascript" defer></script>
+  <script src="components/header.js" type="text/javascript" defer></script>
+ 
 </head>
 
 <body>
   <div class="colorlib-loader"></div>
   <div id="page">
-    <nav class="colorlib-nav" role="navigation">
-      <div class="top-menu">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3 text-center">
-              <div id="colorlib-logo"><a href="index.html">Đất Gia Lai 24h</a></div>
-            </div>
-            <div class="col-md-9 text-right menu-1">
-              <ul>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li class="has-dropdown">
-                  <a href="#">Dịch vụ</a>
-                  <ul class="dropdown">
-                    <li><a href="#">Kí gởi nhà đất</a></li>
-                    <li><a href="#">Tra cứu thông tin hành chính</a></li>
-                    <li><a href="#">Hỗ trợ pháp lý</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Tin tức</a></li>
-                <li><a href="#">Bài viết</a></li>
-                <li><a href="#">Về chúng tôi</a></li>
-                <li><a href="#">Liên hệ</a></li>
-                <!-- <li class="btn-cta"><a href="#">Sign Up</a></li>
-                <li class="btn-cta"><a href="#">Login</a></li> -->
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
+   <header-component></header-component>
     <div class="colorlib-intro">
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center">
             <div class="intro">
-              <h1>Nhà đất Gia Lai 24h</h1>
+              <h1>Đất Gia Lai 24H</h1>
               <p>Chúng tôi bắt đầu với sứ mệnh xây dựng một thị trường nhà đất Gia Lai minh bạch và có độ tin cậy cao, mang đến những kiến thức hữu ích cho nhà đầu tư BDS</p>
               <p><a href="#" class="btn btn-primary btn-outline btn-md">Xem thêm</a> <a href="#"
-                  class="btn btn-primary btn-outline btn-md">Lean more</a></p>
+                  class="btn btn-primary btn-outline btn-md">Trải nghiệm</a></p>
             </div>
           </div>
         </div>
@@ -170,19 +140,19 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-4 no-gutters text-center animate-box">
-            <a href="#" class="work-entry" style="background-image: url(images/work-1.jpg);">
+            <a href="#" class="work-entry" style="background-image: url(images/work-a1.jpg);">
               <div class="desc">
                 <div class="display-t">
                   <div class="display-tc">
                     <!-- <span>Illustration</span> -->
-                    <h2>Nhận kí gởi BDS</h2>
+                    <h2>Kí gởi BDS</h2>
                   </div>
                 </div>
               </div>
             </a>
           </div>
           <div class="col-md-4 no-gutters text-center animate-box">
-            <a href="#" class="work-entry" style="background-image: url(images/work-2.jpg);">
+            <a href="#" class="work-entry" style="background-image: url(images/work-a2.jpg);">
               <div class="desc">
                 <div class="display-t">
                   <div class="display-tc">
@@ -194,31 +164,31 @@
             </a>
           </div>
           <div class="col-md-4 no-gutters text-center animate-box">
-            <a href="#" class="work-entry" style="background-image: url(images/work-3.jpg);">
+            <a href="#" class="work-entry" style="background-image: url(images/work-a3.jpg);">
               <div class="desc">
                 <div class="display-t">
                   <div class="display-tc">
                     <!-- <span>Illustration</span> -->
-                    <h2>Thực hiện giao dịch BDS</h2>
+                    <h2>Giao dịch BDS</h2>
                   </div>
                 </div>
               </div>
             </a>
           </div>
           <div class="col-md-4 no-gutters text-center animate-box">
-            <a href="#" class="work-entry" style="background-image: url(images/work-4.jpg);">
+            <a href="#" class="work-entry" style="background-image: url(images/work-a4.jpg);">
               <div class="desc">
                 <div class="display-t">
                   <div class="display-tc">
                     <!-- <span>Illustration</span> -->
-                    <h2>Kiểm định thông tin BDS</h2>
+                    <h2>Thẩm định giá/thông tin BDS</h2>
                   </div>
                 </div>
               </div>
             </a>
           </div>
           <div class="col-md-4 no-gutters text-center animate-box">
-            <a href="#" class="work-entry" style="background-image: url(images/work-5.jpg);">
+            <a href="#" class="work-entry" style="background-image: url(images/work-a5.jpg);">
               <div class="desc">
                 <div class="display-t">
                   <div class="display-tc">
@@ -230,7 +200,7 @@
             </a>
           </div>
           <div class="col-md-4 no-gutters text-center animate-box">
-            <a href="#" class="work-entry" style="background-image: url(images/work-6.jpg);">
+            <a href="#" class="work-entry" style="background-image: url(images/work-a6.jpg);">
               <div class="desc">
                 <div class="display-t">
                   <div class="display-tc">
@@ -244,7 +214,7 @@
         </div>
       </div>
     </div>
-    <div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_img_1.jpg);"
+    <div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_img_4.jpg);"
       data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
@@ -259,7 +229,7 @@
               <div class="counter-entry">
                 <span class="icon"><i class="icon-paperplane"></i></span>
                 <div class="desc">
-                  <span class="colorlib-counter js-counter" data-from="0" data-to="10539" data-speed="7000"
+                  <span class="colorlib-counter js-counter" data-from="0" data-to="10539" data-speed="3000"
                     data-refresh-interval="50"></span>
                   <span class="colorlib-counter-label">Giao dịch</span>
                 </div>
@@ -269,7 +239,7 @@
               <div class="counter-entry">
                 <span class="icon"><i class="icon-cup"></i></span>
                 <div class="desc">
-                  <span class="colorlib-counter js-counter" data-from="0" data-to="3653" data-speed="7000"
+                  <span class="colorlib-counter js-counter" data-from="0" data-to="3653" data-speed="3000"
                     data-refresh-interval="50"></span>
                   <span class="colorlib-counter-label">Bài viết</span>
                 </div>
@@ -279,7 +249,7 @@
               <div class="counter-entry">
                 <span class="icon"><i class="icon-user2"></i></span>
                 <div class="desc">
-                  <span class="colorlib-counter js-counter" data-from="0" data-to="5987" data-speed="7000"
+                  <span class="colorlib-counter js-counter" data-from="0" data-to="5987" data-speed="3000"
                     data-refresh-interval="50"></span>
                   <span class="colorlib-counter-label">Khách hàng</span>
                 </div>
@@ -350,7 +320,7 @@
         </div>
       </div>
     </div>
-    <div id="colorlib-testimony" class="testimony-img" style="background-image: url(images/cover_img_2.jpg);"
+    <div id="colorlib-testimony" class="testimony-img" style="background-image: url(images/cover_img_3.jpg);"
       data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
@@ -452,127 +422,12 @@
         </div>
       </div>
     </div> -->
-    <footer id="colorlib-footer">
-      <div class="newsletter">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="newsletter-flex">
-                <div class="one-forth">
-                  <div class="display-tc">
-                    <form class="form-inline qbstp-header-subscribe">
-                      <div class="col-three-forth">
-                        <div class="form-group">
-                          <input type="text" class="form-control" id="email" placeholder="Enter your email">
-                        </div>
-                      </div>
-                      <div class="col-one-third">
-                        <div class="form-group">
-                          <button type="submit" class="btn btn-primary">Theo dõi</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <div class="three-forth">
-                  <div class="display-tc">
-                    <h4>Theo dõi chúng tôi để nhận ngay những thông tin mới nhất về thị trường bất động sản Gia Lai</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row row-pb-md">
-          <div class="col-md-3 colorlib-widget">
-            <h4>Về Đất Gia Lai 24h</h4>
-            <p></p>
-            <p>
-            <ul class="colorlib-social-icons">
-              <li><a href="#"><i class="icon-twitter"></i></a></li>
-              <li><a href="https://www.facebook.com/profile.php?id=100076409421346"><i class="icon-facebook"></i></a></li>
-              <li><a href="#"><i class="icon-linkedin"></i></a></li>
-              <li><a href="#"><i class="icon-dribbble"></i></a></li>
-            </ul>
-            </p>
-          </div>
-          <div class="col-md-3 colorlib-widget">
-            <h4>Thông tin chung</h4>
-            <p>
-            <ul class="colorlib-footer-links">
-              <li><a href="#"><i class="icon-check"></i> Về chúng tôi</a></li>
-              <li><a href="#"><i class="icon-check"></i> Chính sách bảo mật</a></li>
-              <li><a href="#"><i class="icon-check"></i> Điều khoản sử dụng</a></li>
-              <li><a href="#"><i class="icon-check"></i> Liên hệ</a></li>
-            </ul>
-            </p>
-          </div>
-          <div class="col-md-3 colorlib-widget">
-            <h4>Bài đăng mới</h4>
-            <div class="f-blog">
-              <a href="#" class="blog-img" style="background-image: url(images/blog-1.jpg);">
-              </a>
-              <div class="desc">
-                <h2><a href="#">Hướng dẫn tra cứu thông tin quy hoạch</a></h2>
-                <p class="admin"><span>02 tháng 03 năm 2023</span></p>
-              </div>
-            </div>
-            <div class="f-blog">
-              <a href="blog.html" class="blog-img" style="background-image: url(images/blog-2.jpg);">
-              </a>
-              <div class="desc">
-                <h2><a href="blog.html">Những điều cần lưu ý khi mua bán đất 2023</a></h2>
-                <p class="admin"><span>01 tháng 03 năm 2023</span></p>
-              </div>
-            </div>
-            <div class="f-blog">
-              <a href="blog.html" class="blog-img" style="background-image: url(images/blog-3.jpg);">
-              </a>
-              <div class="desc">
-                <h2><a href="blog.html">Phải làm gì khi mua nhầm đất quy hoạch</a></h2>
-                <p class="admin"><span>01 tháng 03 năm 2023</span></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 colorlib-widget">
-            <h4>Thông tin liên hệ</h4>
-            <ul class="colorlib-footer-links">
-              <li>Số 347 đường Lê Duẩn <br> Tp Pleiku - Gia Lai</li>
-              <li><a href="tel://0979743345"><i class="icon-phone"></i>   +84979743345</a></li>
-              <li><a
-                  href="mailto:bdsnguyensuong@gmail.com"><i
-                    class="icon-envelope"></i>bdsnguyensuong@gmail.com</a></li>
-              <li><a href="http://datgialai24h.com/"><i class="icon-location4"></i> datgialai24h.com</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="copy">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <p>
-                <small class="block">
-                  Copyright &copy;
-                  <script data-cfasync="false"
-                    src="https://preview.colorlib.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                  <script>document.write(new Date().getFullYear());</script> All rights reserved by <a href="http://datgialai24h.com/"
-                    target="_blank">Đất Gia Lai 24h</a>
-                </small><br>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <footer-component>
+    </footer-component>
   </div>
   <div class="gototop js-top">
     <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
   </div>
-
-  <script src="js/jquery.min.js"></script>
 
   <script src="js/jquery.easing.1.3.js"></script>
 
@@ -593,18 +448,6 @@
 
   <script src="js/main.js"></script>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-23581568-13');
-  </script>
-  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993"
-    integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA=="
-    data-cf-beacon='{"rayId":"79e11887dbf804c3","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.2.0","si":100}'
-    crossorigin="anonymous"></script>
 </body>
 
 <!-- Mirrored from preview.colorlib.com/theme/landing/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Feb 2023 15:47:28 GMT -->
